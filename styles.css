@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.secondary-text {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.top-section {
+  background-color: #1f2937;
+  color: white;
+}
+
+nav a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  rotate: 45deg;
+  padding: 1rem;
+}
+
+.hero {
+  display: flex;
+  width: 80%;
+  margin: 0 auto ;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  gap: 1rem;
+}
+
+.hero-img {
+  background-color: white;
+  opacity: 0.3;
+  width: 50%;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.random-info-section {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.random-info-section .items {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.random-info-section .item {
+  width: 200px;
+  color: #1f2937;
+  font-weight: 200;
+}
+
+.random-info-section img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 3rem;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding: 5rem 25%;
+  color: #1f2937;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: thin;
+}
+
+.quote-author {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.cta-wrapper {
+  width: 80%;
+  background-color: #3882F6;
+  margin: 5rem auto;
+  border-radius: 7px;
+  color: white;
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta button {
+  border: 2px solid white;
+}
+
+.cta button:hover {
+  background-color: #1f2937;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
